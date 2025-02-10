@@ -37,9 +37,9 @@ how each level of normalization is achieved in the database schema.
 
 - Isolated Enrollment Table
 
-| EnrollmentId | StudentId |  CourseId                |
-| :-------- || :-------- |:------------------------- |
-| 1 |1| 1001|
+| EnrollmentId |  StudentId                | CourseId |
+| :-------- |:------------------------- | :--------|
+| 1| 1 | 1001|
 | 2 | 1 | 1002 |
 | 3 | 2 | 1002 |
 
