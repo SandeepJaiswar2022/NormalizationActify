@@ -53,9 +53,14 @@ how each level of normalization is achieved in the database schema.
 
 ### Example : 
 #### Before 2NF :- 
-| CourseID | CourseName |  TeacherName                |
+<!-- | CourseID | CourseName |  TeacherName                |
 | :-------- || :-------- |:------------------------- |
 | 1001 |Python| Harendra Bikrol|
+| 1002 | JAVA | Anish Sahu | -->
+
+| CourseID |  CourseName                | TeacherName |
+| :-------- |:------------------------- | :--------|
+| 1001| Python | Harendra Bikrol|
 | 1002 | JAVA | Anish Sahu |
 
 #### After 2NF :-
