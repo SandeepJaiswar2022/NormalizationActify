@@ -21,10 +21,6 @@ how each level of normalization is achieved in the database schema.
 
 ### Example : 
 #### Before 1NF :- 
-<!-- | StudentID | Name |  Courses                |
-| :-------- || :-------- |:------------------------- |
-| 1 |Shubham| Python, JAVA |
-| 2 | Sandeep | JAVA | -->
 
 | StudentID |  Name                | Courses |
 | :-------- |:------------------------- | :--------|
@@ -33,11 +29,14 @@ how each level of normalization is achieved in the database schema.
 
 #### After 1NF :-
 - Student Table Isolated
+
 | StudentID |  Name                |
 | :-------- |:------------------------- |
 | 1 | Shubham |
 | 2 | Sandeep |
+
 - Isolated Enrollment Table
+
 | EnrollmentId | StudentId |  CourseId                |
 | :-------- || :-------- |:------------------------- |
 | 1 |1| 1001|
